@@ -3,7 +3,7 @@ function createScene()
     const  scene = new THREE.Scene()
     const  camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 1, 100)
     camera.position.y = 8
-    camera.position.z = 100
+    camera.position.z = 50
 
     const  renderer = new THREE.WebGLRenderer({antialias: true})
     renderer.setSize(window.innerWidth, window.innerHeight)
