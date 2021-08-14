@@ -6,7 +6,7 @@ function createScene()
     camera.position.z = 30
 
     const  renderer = new THREE.WebGLRenderer({antialias: true})
-    renderer.setSize(0.99*window.innerWidth, 0.98*window.innerHeight)
+    renderer.setSize(window.innerWidth, window.innerHeight)
     renderer.setClearColor(0xFAEECD, 1)
     document.body.appendChild(renderer.domElement)
 
